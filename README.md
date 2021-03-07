@@ -23,7 +23,7 @@ a tool used for transforming several loops to a function which is only needed to
          默认最右侧的迭代变量是最内层的循环 
 ### baseFunc --函数句柄，需要的最基本的原子操作，输入参数是vars 
 #### 例如： 
-           nestloop(10,{a,b,c},@base) 
+           nestloop(10,{a,b,c},@base,'parallel',true,'echo',true) 
            function res=base(vars) 
              [a,b,c]=distr(vars); 
            end 
