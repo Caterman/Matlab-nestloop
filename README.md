@@ -28,4 +28,11 @@ a tool used for transforming several loops to a function which is only needed to
              [a,b,c]=distr(vars); 
            end 
 ### varargin --其他控制参数 
-
+            'before'
+            'after'
+            'save'
+            'savename'
+            'resume'
+            'parallel'
+            'choose'
+            'echo'
