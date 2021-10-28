@@ -1,4 +1,4 @@
-function relationCell=nestloop2(times,vars,baseFunc,varargin)
+function relationCell=nestloop(times,vars,baseFunc,varargin)
 %times   --最内层的循环,表示每种输入参数的原子baseFunc操作需要重复的次数，最少为1
 %vars    --需要迭代的变量以及常量值，默认所有的数组都是需要遍历的，如果想传入一个数组常量，可以用{{}}包裹，
 %          例如vars={[1 2 3],4,'var',{{[5 6]}}}  
